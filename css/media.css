@@ -1,11 +1,14 @@
 @media all and (max-width: 775px) {
     
     .navbar {
-        display: none;
-        width: 180px;
-        height: 300px;
-        background-color: rgb(245, 244, 178);
-        text-align: center;
+        transition: height 0.5s ease-in-out;
+		height: 0;
+		margin: 0 auto;
+		overflow: hidden;
+		float: none;
+		width: 150px;
+		border: none;
+		opacity: 0;
     }
 
     .navbar ul {
@@ -31,6 +34,19 @@
     }
 
     .menu_show {
- display: block
+        height: 200px;
+        opacity: 1;
+        transition: 1s ease-in-out;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu_toggle {
+        right: 50px;
     }
 }

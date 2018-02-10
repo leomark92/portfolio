@@ -1,6 +1,6 @@
-.clearfix {
+.clearfix:after {
   content: "";
-  display: "table";
+  display: table;
   clear: both; }
 
 body {
@@ -66,5 +66,16 @@ body {
   position: absolute;
   right: 100px;
   top: 50px; }
+
+.jumbo {
+  color: #fff; }
+
+.jumbo_btn {
+  color: #fff;
+  font-size: 24px;
+  background-color: orange;
+  border: none;
+  outline: none;
+  padding: 15px; }
 
 /*# sourceMappingURL=main.css.map */

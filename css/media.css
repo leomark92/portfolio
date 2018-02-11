@@ -8,7 +8,7 @@
 		float: none;
 		width: 150px;
 		border: none;
-		opacity: 0;
+        opacity: 0;
     }
 
     .navbar ul {
@@ -48,5 +48,13 @@
 
     .menu_toggle {
         right: 50px;
+    }
+
+    .jumbo {
+        text-align: center;
+    }
+
+    .navbar {
+        text-align: center;
     }
 }
